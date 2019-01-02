@@ -93,3 +93,10 @@ h3 {
     color: #AC3B61;
     font-size: 120px;
 }
+
+#logo {
+    height: 15%;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
