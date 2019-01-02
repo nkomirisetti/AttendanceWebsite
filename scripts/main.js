@@ -56,6 +56,7 @@ var buildCodePage = function () {
     codeContent.fadeIn(250);
 }
 
+// variation of knuth simple number hash
 var timeHash = function (timeStamp) {
     var hashedTime = timeStamp % 10000;
     hashedTime = (hashedTime * (hashedTime + 3)) % 99999;
