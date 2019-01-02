@@ -68,7 +68,7 @@ button:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #EEE2DC;
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #BAB2B5;
@@ -82,6 +82,8 @@ button:hover {
 h3 {
     font-family: 'Abel', sans-serif;
     text-align: center;
+    color: #123C69;
+    text-shadow: 1px 1px 1px #BAB2B5;
 }
 
 #codeTimer {
