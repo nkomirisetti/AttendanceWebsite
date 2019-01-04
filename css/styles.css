@@ -23,7 +23,6 @@ body {
     width: 73%;
     height: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -47,6 +46,7 @@ button {
     float: right;
     font-family: verdana;
     font-weight: bold;
+    border-radius: 4px;
 }
 
 button:hover {
