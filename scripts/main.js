@@ -29,9 +29,9 @@ var buildPasswordPage = function () {
 var buildCodePage = function () {
     bodyContainer.empty();
     var codeContent = $('<div></div>');
-    codeContent.append('<h1>Recitation Link</h1>');
+    codeContent.append('<h1>Attendance Link</h1>');
     codeContent.append('<input type="text" id="recitationLink"></input>');
-    codeContent.append('<h1>Recitation Code</h1>');
+    codeContent.append('<h1>Attendance Code</h1>');
     codeContent.append('<h1 id="recitationCode"></h1>');
     codeContent.append('<h3 id="codeTimer"></h3>');
 
