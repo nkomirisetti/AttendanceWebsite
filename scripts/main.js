@@ -1,5 +1,5 @@
 let rootPassword = "40119";
-let codeTime = 15;
+let codeTime = 20;
 
 var bodyContainer;
 $(document).ready(() => {
@@ -37,7 +37,7 @@ var buildCodePage = function () {
 
     setInterval(function () {
             var dateTime = Math.round(Date.now() / 1000);
-
+            console.log(dateTime);
             if (dateTime % codeTime === 0) {
                 $('#recitationCode').fadeOut(200, function () {
                     $('#recitationCode').empty();
