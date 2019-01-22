@@ -46,7 +46,7 @@ var buildCodePage = function () {
                 });
             }
             $('#codeTimer').empty();
-            $('#codeTimer').append(15 - (dateTime % codeTime) + " seconds left");
+            $('#codeTimer').append(codeTime - (dateTime % codeTime) + " seconds left");
         },
         1000);
     codeContent.append('<h3>Make sure to enter the code before you submit your form!</h3>');
