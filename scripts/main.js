@@ -36,7 +36,7 @@ var buildCodePage = function () {
     codeContent.append('<h3 id="codeTimer"></h3>');
 
     setInterval(function () {
-            var dateTime = Math.round(Date.now() / 1000);
+            var dateTime = Math.trunc(Date.now() / 1000);
             if (dateTime % codeTime === 0) {
                 $('#recitationCode').fadeOut(200, function () {
                     $('#recitationCode').empty();
